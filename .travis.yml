@@ -7,3 +7,6 @@ before_install:
 
 script:
   - docker run -e CI=true vaipra1305/docker-react npm run test -- --coverage
+
+deploy:
+  provide: azure_web_apps
