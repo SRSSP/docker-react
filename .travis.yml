@@ -10,3 +10,5 @@ script:
 
 deploy:
   provide: azure_web_apps
+
+  
